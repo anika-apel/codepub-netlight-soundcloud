@@ -1,0 +1,41 @@
+artist_id,artist_name,gender,ethnicity,genre,country,monthly_listeners,total_streams,album_count,years_active,label_type,award_wins,spotify_followers,soundcloud_followers
+1,Taylor Swift,Female,White,Pop,USA,85000000,15000000000,10,17,Major,12,90000000,2500000
+2,Kendrick Lamar,Male,Black,Hip-Hop,USA,45000000,8000000000,6,15,Major,14,25000000,3200000
+3,Bad Bunny,Male,Latino,Reggaeton,Puerto Rico,75000000,12000000000,5,10,Major,8,70000000,4100000
+4,Billie Eilish,Female,White,Alternative,USA,65000000,10000000000,3,7,Major,7,110000000,1800000
+5,The Weeknd,Male,Black,R&B,Canada,78000000,13500000000,5,13,Major,4,35000000,2900000
+6,Dua Lipa,Female,White,Pop,UK,68000000,11000000000,3,8,Major,2,87000000,1600000
+7,Drake,Male,Black,Hip-Hop,Canada,82000000,28000000000,7,15,Major,5,75000000,5200000
+8,Ariana Grande,Female,White,Pop,USA,70000000,21000000000,6,12,Major,1,85000000,2100000
+9,Post Malone,Male,White,Hip-Hop,USA,55000000,9500000000,4,9,Major,3,42000000,3800000
+10,Lizzo,Female,Black,Pop,USA,25000000,3500000000,4,10,Major,3,12000000,1200000
+11,J Balvin,Male,Latino,Reggaeton,Colombia,48000000,7800000000,6,18,Major,2,45000000,3600000
+12,Rosalía,Female,Latino,Flamenco Pop,Spain,35000000,4200000000,3,8,Major,1,25000000,1500000
+13,Frank Ocean,Male,Black,R&B,USA,8000000,1800000000,3,14,Independent,0,6500000,4500000
+14,SZA,Female,Black,R&B,USA,32000000,5600000000,2,11,Major,0,18000000,2200000
+15,Burna Boy,Male,Black,Afrobeats,Nigeria,28000000,4500000000,6,12,Major,1,15000000,2800000
+16,Anitta,Female,Latino,Pop,Brazil,42000000,6200000000,5,11,Major,0,38000000,2000000
+17,BTS,Male,Asian,K-Pop,South Korea,38000000,7200000000,9,10,Major,0,65000000,1400000
+18,Blackpink,Female,Asian,K-Pop,South Korea,32000000,5800000000,2,8,Major,0,42000000,1100000
+19,Tems,Female,Black,Afrobeats,Nigeria,12000000,1500000000,2,6,Independent,0,8000000,980000
+20,Clairo,Female,White,Indie Pop,USA,8500000,1200000000,3,7,Independent,0,4200000,1800000
+21,Tyler Cole,Male,Black,Alternative,USA,480000,85000000,3,8,Independent,0,320000,450000
+22,Kali Uchis,Female,Latino,R&B,USA,18000000,2800000000,3,11,Major,0,12000000,1600000
+23,FKA twigs,Female,Mixed,Experimental,UK,2200000,580000000,4,12,Independent,0,1800000,1200000
+24,Solange,Female,Black,R&B,USA,3500000,720000000,4,18,Independent,1,2800000,890000
+25,Jorja Smith,Female,Black,R&B,UK,5800000,1100000000,2,7,Major,0,4200000,950000
+26,Kacey Musgraves,Female,White,Country,USA,4200000,920000000,6,16,Major,6,3800000,680000
+27,Megan Thee Stallion,Female,Black,Hip-Hop,USA,25000000,4100000000,2,6,Major,3,28000000,2400000
+28,Cardi B,Female,Latino,Hip-Hop,USA,48000000,8900000000,1,7,Major,1,75000000,4200000
+29,Lorde,Female,White,Alternative,New Zealand,18000000,3200000000,2,11,Major,2,12000000,1300000
+30,Phoebe Bridgers,Female,White,Indie Rock,USA,4800000,850000000,3,8,Independent,0,2900000,1500000
+31,Rina Sawayama,Female,Asian,Pop,Japan,1800000,320000000,2,6,Independent,0,980000,520000
+32,Princess Nokia,Female,Latino,Hip-Hop,USA,890000,125000000,4,10,Independent,0,450000,680000
+33,Yaeji,Female,Asian,Electronic,USA,650000,95000000,2,7,Independent,0,420000,380000
+34,Sevdaliza,Female,Middle Eastern,Alternative,Netherlands,1200000,180000000,4,9,Independent,0,680000,450000
+35,Lana Del Rey,Female,White,Alternative,USA,32000000,6800000000,9,14,Major,0,42000000,2100000
+36,Mitski,Female,Asian,Indie Rock,USA,3200000,620000000,6,12,Independent,0,1800000,980000
+37,Tinashe,Female,Black,R&B,USA,2800000,520000000,5,12,Independent,0,1900000,850000
+38,Kehlani,Female,Mixed,R&B,USA,8200000,1800000000,4,10,Independent,0,6500000,1200000
+39,H.E.R.,Female,Black,R&B,USA,12000000,2400000000,5,8,Major,5,8900000,1100000
+40,Summer Walker,Female,Black,R&B,USA,15000000,3100000000,2,5,Major,0,12000000,1500000
