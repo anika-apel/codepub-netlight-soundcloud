@@ -4,59 +4,70 @@ Hands-on Workshop on Diversity, Equity, and Inclusion (DEI) in the music industr
 
 ## Overview
 
-This workshop provides a comprehensive exploration of DEI challenges in the music industry through data analysis. Using real-world inspired data from streaming platforms, we'll examine representation patterns, identify biases, and develop data-driven solutions for promoting equity.
+This workshop provides a comprehensive exploration of DEI challenges in the music industry through data analysis. 
+Using real-world inspired data from streaming platforms, we'll examine representation patterns, identify biases, and develop data-driven solutions for promoting equity.
 
 ## Workshop Structure
 
-The workshop is designed with three progressive levels to accommodate different skill levels:
+The workshop is designed with three different levels to accommodate different skill levels. 
+The beginner workshop gives more instructions and uses less known concepts whereas the intermediate and advanced level leave you more freedom to explore the data on your own and come up with ideas.
+Imagine this like a small-scale hackathon. 
+
+As part of this workshop, you can look into:
+- **Representation gaps** across demographics
+- **Success pattern differences** between groups
+- **Label type distribution** and access to resources
+- **Algorithmic bias** in predictive models
+- **Fairness metrics** and their interpretation
+
 
 ### 🟢 **Beginner Level** 
-**Focus**: Basic data exploration and visualization
+**Focus**: Basic data exploration and visualization of listening behavior of artists
 - **File**: `notebooks/beginner/beginner_dei_analysis.ipynb`
 - **Skills**: Pandas basics, simple visualizations, descriptive statistics
-- **Duration**: 60-90 minutes
+- **Duration**: 75 minutes
 - **Topics**:
   - Loading and exploring datasets
   - Gender and ethnic representation analysis
   - Creating basic charts (pie charts, bar charts)
   - Calculating summary statistics
-  - Identifying patterns in success metrics
 
 ### 🟡 **Intermediate Level**
-**Focus**: Statistical analysis and advanced visualizations
+**Focus**: Data exploration and statistical analysis of comment behavior of artists
 - **File**: `notebooks/intermediate/intermediate_dei_analysis.ipynb`
-- **Skills**: Statistical testing, correlation analysis, interactive plots
-- **Duration**: 90-120 minutes
-- **Prerequisites**: Completed beginner level or equivalent pandas/matplotlib experience
+- **Skills**: correlation analysis, interactive visualizations
+- **Duration**: 75 minutes
+- **Prerequisites**: Basic knowledge of Pandas, numpy and plotting libraries
 - **Topics**:
-  - Statistical hypothesis testing (t-tests, ANOVA)
+  - Combining datasets
   - Correlation analysis and heatmaps
   - Interactive visualizations with Plotly
   - Cross-tabulation and demographic breakdowns
-  - Confidence intervals and significance testing
+  - Identifying patterns in metrics
 
 ### 🔴 **Advanced Level**
-**Focus**: Machine learning and algorithmic fairness
+**Focus**: Recommendations and Predictions for listeners and artists
 - **File**: `notebooks/advanced/advanced_dei_analysis.ipynb`
-- **Skills**: Machine learning, bias detection, fairness metrics
-- **Duration**: 2-3 hours
+- **Skills**: Machine learning, fairness metrics
+- **Duration**: 75 minutes
 - **Prerequisites**: Intermediate Python, basic ML concepts, statistics background
 - **Topics**:
   - Predictive modeling for artist success
   - Feature engineering and importance analysis
-  - Bias detection in ML models
   - Clustering analysis (artist archetypes)
-  - Fairness metrics and equity scoring
   - Building recommendation systems
+  - Optional: Bias detection in ML models
+  - Optional: Fairness metrics and equity scoring
 
 ## Dataset
 
-The workshop uses a synthetic dataset (`data/music_industry_dei_data.csv`) containing information about 40 diverse artists including:
+The workshop uses an anonymized version of SoundClouds data containing data about listening & commenting behavior of artists. 
+In total, it contains 5 different datasets. 
 
-- **Demographics**: Gender, ethnicity, country
-- **Career Info**: Genre, years active, label type, album count
-- **Success Metrics**: Monthly listeners, total streams, followers, awards
-- **Platform Data**: Spotify and SoundCloud follower counts
+The data includes:
+- **Demographics**: Gender, ethnicity, country of artists and listeners
+- **Career Info**: Genre (anonymized)
+- **Success Metrics**: Monthly plays, comments
 
 ## Getting Started
 
@@ -95,36 +106,26 @@ By completing this workshop, participants will:
 
 - **Understand DEI challenges** in the music industry through data
 - **Develop analytical skills** for identifying bias and inequity
-- **Learn progressive data science techniques** from basic stats to ML
 - **Gain practical experience** with real-world datasets
 - **Build awareness** of algorithmic bias and fairness
 - **Create actionable insights** for promoting equity
 
-## Workshop Flow Recommendations
+## Workshop Flow
 
-### For Individual Learning:
-1. Start with the beginner notebook regardless of skill level
-2. Progress through levels sequentially
-3. Take breaks between levels to reflect on insights
-4. Experiment with the code and try variations
+This is a group workshop. Meet up in groups of three people with the same skill level and start with your workshop. Collaboration is key here to tackle the tasks and explore different ideas. 
+At the end, we will collect key findings and results on this Miro board to share it with everyone. 
 
-### For Group Workshops:
-1. **Mixed Groups**: Assign levels based on experience
-2. **Same Level**: All participants work on the same level
-3. **Progressive Sessions**: Run multiple sessions covering different levels
-4. **Collaborative**: Advanced participants mentor beginners
-
-## Key Insights to Explore
-
-Participants will discover and analyze:
-- **Representation gaps** across demographics
-- **Success pattern differences** between groups
-- **Genre segregation** and its implications
-- **Label type distribution** and access to resources
-- **Algorithmic bias** in predictive models
-- **Fairness metrics** and their interpretation
+This is a safer space, you can ask any questions. We and all other participants are here to support each other ✨
 
 ## Technical Requirements
+
+1. Install Python 3.7+ and Jupyter Notebook
+  - [See official python installer](https://www.python.org/downloads/)
+  - Use a package manager: 
+    - MacOS: `brew install python`
+    - Linux: use your distribution's package manager (e.g. `apt` for Ubuntu/Debian) -`sudo apt update && sudo apt instsall python3 python3-pip`
+    - Windows: Use Chocolately or Scoop - `choco install python` or `scoop install python`
+2. Install all requirements: `pip install -r requirements.txt`
 
 ### Required Python Packages:
 - `pandas` - Data manipulation and analysis
@@ -161,14 +162,6 @@ This workshop aims to:
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-If you encounter issues:
-1. Check that all required packages are installed
-2. Ensure you're using Python 3.7+
-3. Try restarting your Jupyter kernel
-4. Open an issue on GitHub with error details
 
 ## Acknowledgments
 
