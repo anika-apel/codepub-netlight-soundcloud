@@ -1,0 +1,90 @@
+Column,Description
+creator_assigned_number,Unique identifier assigned to each creator
+creator_gender,"Gender category of the creator (male, female, custom, null)"
+most_uploaded_genre,The genre the creator has uploaded most frequently
+creator_signup_country,The country where the creator originally signed up
+total_play_count,Total number of plays across all countries and listener genders
+total_play_count_male,Total number of plays from listeners identified as male
+total_play_count_female,Total number of plays from listeners identified as female
+total_play_count_custom_gender,Total number of plays from listeners with a custom gender
+total_play_count_null_gender,Total number of plays from listeners without gender data
+plays_by_males_BR,Number of plays from male listeners in Brazil
+pct_plays_by_males_BR,Percentage of total plays in Brazil from male listeners
+plays_by_females_BR,Number of plays from female listeners in Brazil
+pct_plays_by_females_BR,Percentage of total plays in Brazil from female listeners
+plays_by_custom_gender_BR,Number of plays from custom-gender listeners in Brazil
+pct_plays_by_custom_gender_BR,Percentage of total plays in Brazil from custom-gender listeners
+plays_by_null_gender_BR,Number of plays from listeners without gender data in Brazil
+pct_plays_by_null_gender_BR,Percentage of total plays in Brazil from listeners without gender data
+total_play_count_BR,Total number of plays in Brazil
+plays_by_males_DE,Number of plays from male listeners in Germany
+pct_plays_by_males_DE,Percentage of total plays in Germany from male listeners
+plays_by_females_DE,Number of plays from female listeners in Germany
+pct_plays_by_females_DE,Percentage of total plays in Germany from female listeners
+plays_by_custom_gender_DE,Number of plays from custom-gender listeners in Germany
+pct_plays_by_custom_gender_DE,Percentage of total plays in Germany from custom-gender listeners
+plays_by_null_gender_DE,Number of plays from listeners without gender data in Germany
+pct_plays_by_null_gender_DE,Percentage of total plays in Germany from listeners without gender data
+total_play_count_DE,Total number of plays in Germany
+plays_by_males_EG,Number of plays from male listeners in Egypt
+pct_plays_by_males_EG,Percentage of total plays in Egypt from male listeners
+plays_by_females_EG,Number of plays from female listeners in Egypt
+pct_plays_by_females_EG,Percentage of total plays in Egypt from female listeners
+plays_by_custom_gender_EG,Number of plays from custom-gender listeners in Egypt
+pct_plays_by_custom_gender_EG,Percentage of total plays in Egypt from custom-gender listeners
+plays_by_null_gender_EG,Number of plays from listeners without gender data in Egypt
+pct_plays_by_null_gender_EG,Percentage of total plays in Egypt from listeners without gender data
+total_play_count_EG,Total number of plays in Egypt
+plays_by_males_GB,Number of plays from male listeners in the United Kingdom
+pct_plays_by_males_GB,Percentage of total plays in the United Kingdom from male listeners
+plays_by_females_GB,Number of plays from female listeners in the United Kingdom
+pct_plays_by_females_GB,Percentage of total plays in the United Kingdom from female listeners
+plays_by_custom_gender_GB,Number of plays from custom-gender listeners in the United Kingdom
+pct_plays_by_custom_gender_GB,Percentage of total plays in the United Kingdom from custom-gender listeners
+plays_by_null_gender_GB,Number of plays from listeners without gender data in the United Kingdom
+pct_plays_by_null_gender_GB,Percentage of total plays in the United Kingdom from listeners without gender data
+total_play_count_GB,Total number of plays in the United Kingdom
+plays_by_males_US,Number of plays from male listeners in the United States
+pct_plays_by_males_US,Percentage of total plays in the United States from male listeners
+plays_by_females_US,Number of plays from female listeners in the United States
+pct_plays_by_females_US,Percentage of total plays in the United States from female listeners
+plays_by_custom_gender_US,Number of plays from custom-gender listeners in the United States
+pct_plays_by_custom_gender_US,Percentage of total plays in the United States from custom-gender listeners
+plays_by_null_gender_US,Number of plays from listeners without gender data in the United States
+pct_plays_by_null_gender_US,Percentage of total plays in the United States from listeners without gender data
+total_play_count_US,Total number of plays in the United States
+plays_by_males_VN,Number of plays from male listeners in Vietnam
+pct_plays_by_males_VN,Percentage of total plays in Vietnam from male listeners
+plays_by_females_VN,Number of plays from female listeners in Vietnam
+pct_plays_by_females_VN,Percentage of total plays in Vietnam from female listeners
+plays_by_custom_gender_VN,Number of plays from custom-gender listeners in Vietnam
+pct_plays_by_custom_gender_VN,Percentage of total plays in Vietnam from custom-gender listeners
+plays_by_null_gender_VN,Number of plays from listeners without gender data in Vietnam
+pct_plays_by_null_gender_VN,Percentage of total plays in Vietnam from listeners without gender data
+total_play_count_VN,Total number of plays in Vietnam
+assigned_number_for_genre_type,Unique number assigned for each genre type
+new_comments_by_male_creator,Number of new comments made by male creators
+pct_new_comments_by_male_creator,Percentage of all new comments made by male creators
+new_comments_by_female_creator,Number of new comments made by female creators
+pct_new_comments_by_female_creator,Percentage of all new comments made by female creators
+new_comments_by_custom_gender_creator,Number of new comments made by custom-gender creators
+pct_new_comments_by_custom_gender_creator,Percentage of all new comments made by custom-gender creators
+new_comments_by_null_gender_creator,Number of new comments made by creators without gender data
+pct_new_comments_by_null_gender_creator,Percentage of all new comments made by creators without gender data
+total_new_creator_comment_count,Total number of new comments made by all creators
+pct_new_comments_by_creator,Percentage of new comments relative to total comments for the creator
+listener_new_comment_count,Number of new comments made by listeners
+pct_new_comments_by_listener,Percentage of new comments relative to total comments by listeners
+responses_by_male_creator,Number of responses made by male creators
+pct_responses_by_male_creator,Percentage of total responses made by male creators
+responses_by_female_creator,Number of responses made by female creators
+pct_responses_by_female_creator,Percentage of total responses made by female creators
+responses_by_custom_gender_creator,Number of responses made by custom-gender creators
+pct_responses_by_custom_gender_creator,Percentage of total responses made by custom-gender creators
+responses_by_null_gender_creator,Number of responses made by creators without gender data
+pct_responses_by_null_gender_creator,Percentage of total responses made by creators without gender data
+total_responses_by_creator,Total number of responses made by all creators
+pct_total_responses_by_creator,Percentage of total responses relative to all creator responses
+total_responses_by_listener,Total number of responses made by listeners
+pct_total_responses_by_listener,Percentage of total responses relative to all listener responses
+total_reponse_count,Total number of responses
