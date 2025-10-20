@@ -17,65 +17,59 @@ As part of this workshop, you can look into:
 - **Representation gaps** across demographics
 - **Success pattern differences** between groups
 - **Label type distribution** and access to resources
-- **Algorithmic bias** in predictive models
-- **Fairness metrics** and their interpretation
 
+This is a group workshop. Meet up in groups of three people with the same skill level and start with your workshop. Collaboration is key here to tackle the tasks and explore different ideas. 
+At the end, we will collect key findings and results on this Miro board to share it with everyone. 
+
+This is a safer space, you can ask any questions. We and all other participants are here to support each other ✨
 
 ### 🟢 **Beginner Level** 
 **Focus**: Basic data exploration and visualization of listening behavior of artists
 - **File**: `notebooks/beginner/beginner_dei_analysis.ipynb`
-- **Skills**: Pandas basics, simple visualizations, descriptive statistics
 - **Duration**: 75 minutes
-- **Topics**:
-  - Loading and exploring datasets
-  - Gender and ethnic representation analysis
-  - Creating basic charts (pie charts, bar charts)
-  - Calculating summary statistics
 
 ### 🟡 **Intermediate Level**
 **Focus**: Data exploration and statistical analysis of comment behavior of artists
 - **File**: `notebooks/intermediate/intermediate_dei_analysis.ipynb`
-- **Skills**: correlation analysis, interactive visualizations
 - **Duration**: 75 minutes
 - **Prerequisites**: Basic knowledge of Pandas, numpy and plotting libraries
-- **Topics**:
-  - Combining datasets
-  - Correlation analysis and heatmaps
-  - Interactive visualizations with Plotly
-  - Cross-tabulation and demographic breakdowns
-  - Identifying patterns in metrics
 
 ### 🔴 **Advanced Level**
 **Focus**: Recommendations and Predictions for listeners and artists
 - **File**: `notebooks/advanced/advanced_dei_analysis.ipynb`
-- **Skills**: Machine learning, fairness metrics
 - **Duration**: 75 minutes
-- **Prerequisites**: Intermediate Python, basic ML concepts, statistics background
-- **Topics**:
-  - Predictive modeling for artist success
-  - Feature engineering and importance analysis
-  - Clustering analysis (artist archetypes)
-  - Building recommendation systems
-  - Optional: Bias detection in ML models
-  - Optional: Fairness metrics and equity scoring
 
 ## Dataset
 
-The workshop uses an anonymized version of SoundClouds data containing data about listening & commenting behavior of artists. 
-In total, it contains 5 different datasets. 
+The workshop uses an anonymized version of SoundClouds data containing data about listening & engagement behavior of artists. 
+In total, it contains 5 different datasets.
+The first 4 datasets describe the listening behavior of artists in 4 different genres.
+The fifth dataset describes the engagement behavior of artists.
 
-The data includes:
-- **Demographics**: Gender, ethnicity, country of artists and listeners
-- **Career Info**: Genre (anonymized)
-- **Success Metrics**: Monthly plays, comments
+You can find a legend explaining all fields in [legends.csv](data/legend.csv).
 
 ## Getting Started
 
 ### Prerequisites
 
-- Python 3.7+ 
+- Python 3.7+
 - Jupyter Notebook or JupyterLab
 - Basic familiarity with Python (for beginner level)
+
+<details>
+  <summary>Detailed setup guide:</summary>
+
+1. Install Python 3.7+ and Jupyter Notebook
+  - [See official python installer](https://www.python.org/downloads/)
+  - Use a package manager: 
+    - MacOS: `brew install python`
+    - Linux: use your distribution's package manager (e.g. `apt` for Ubuntu/Debian) -`sudo apt update && sudo apt install python3 python3-pip`
+    - Windows: Use Chocolately or Scoop - `choco install python` or `scoop install python`
+2. Confirm installation worked as expected: `python --version` or `python3 --version`
+3. Install all requirements: `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
+
+</details>
+
 
 ### Installation
 
@@ -100,34 +94,8 @@ jupyter notebook
    - Intermediate: `notebooks/intermediate/intermediate_dei_analysis.ipynb`
    - Advanced: `notebooks/advanced/advanced_dei_analysis.ipynb`
 
-## Key Learning Outcomes
+### Overview of Python Packages
 
-By completing this workshop, participants will:
-
-- **Understand DEI challenges** in the music industry through data
-- **Develop analytical skills** for identifying bias and inequity
-- **Gain practical experience** with real-world datasets
-- **Build awareness** of algorithmic bias and fairness
-- **Create actionable insights** for promoting equity
-
-## Workshop Flow
-
-This is a group workshop. Meet up in groups of three people with the same skill level and start with your workshop. Collaboration is key here to tackle the tasks and explore different ideas. 
-At the end, we will collect key findings and results on this Miro board to share it with everyone. 
-
-This is a safer space, you can ask any questions. We and all other participants are here to support each other ✨
-
-## Technical Requirements
-
-1. Install Python 3.7+ and Jupyter Notebook
-  - [See official python installer](https://www.python.org/downloads/)
-  - Use a package manager: 
-    - MacOS: `brew install python`
-    - Linux: use your distribution's package manager (e.g. `apt` for Ubuntu/Debian) -`sudo apt update && sudo apt instsall python3 python3-pip`
-    - Windows: Use Chocolately or Scoop - `choco install python` or `scoop install python`
-2. Install all requirements: `pip install -r requirements.txt`
-
-### Required Python Packages:
 - `pandas` - Data manipulation and analysis
 - `numpy` - Numerical computing
 - `matplotlib` - Basic plotting
@@ -137,19 +105,6 @@ This is a safer space, you can ask any questions. We and all other participants 
 - `scikit-learn` - Machine learning (advanced level)
 - `jupyter` - Notebook environment
 
-### System Requirements:
-- **RAM**: 4GB minimum (8GB recommended for advanced level)
-- **Storage**: 100MB free space
-- **OS**: Any (Windows, macOS, Linux)
-
-## Contributing
-
-This workshop is designed for educational purposes. To contribute:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make improvements (additional analyses, bug fixes, better explanations)
-4. Submit a pull request
 
 ## Ethical Considerations
 
@@ -166,7 +121,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - **SoundCloud** for collaboration and inspiration
-- **Music industry data sources** (anonymized and synthesized for educational use)
 - **Open source community** for the tools that make this analysis possible
 
 ---
