@@ -66,8 +66,6 @@ You can find a legend explaining all fields in [legends.csv](data/legend.csv).
     - Linux: use your distribution's package manager (e.g. `apt` for Ubuntu/Debian) -`sudo apt update && sudo apt install python3 python3-pip`
     - Windows: Use Chocolately or Scoop - `choco install python` or `scoop install python`
 2. Confirm installation worked as expected: `python --version` or `python3 --version`
-3. Install all requirements: `pip install -r requirements.txt` or `pip3 install -r requirements.txt`
-
 </details>
 
 
@@ -83,6 +81,20 @@ cd codepub-netlight-soundcloud
 ```bash
 pip install -r requirements.txt
 ```
+<details>
+  <summary>If you installed python through brew, you might get an error message.</summary>
+
+If you get the error message `error: externally-managed-environment`, you can take these steps:
+  ```bash
+  python3 -m venv codepubenv
+  source codepubenv/bin/activate
+  python3 -m pip install -r requirements.txt
+  python3 -m ipykernel install --user --name=codepubenv --display-name="codepub environment"
+  jupyter notebook
+  ```
+Once you've opened a particular notebook, e.g. `beginner_dei_analysis.ipynb` in your browser, make sure to select the right kernel:
+Go to Kernel > Change kernel and select "codepub environment". This links the notebook to your environment's isolated dependencies.
+</details>
 
 3. Launch Jupyter:
 ```bash
