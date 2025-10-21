@@ -1,0 +1,29 @@
+# License
+
+## Data License
+The dataset(s) included in this repository (hereinafter referred to as "Data") are made available under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license. The terms of this license can be found at https://creativecommons.org/licenses/by-nc/4.0 .
+
+### Key Terms:
+
+- Attribution: You must give appropriate credit to SoundCloud in any use of the Data, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests SoundCloud endorses you or your use.
+- NonCommercial Use Only: The Data may not be used for commercial purposes under any circumstances. This includes conducting business, generating profits, or any other commercial application without express, written permission from SoundCloud. Contact SoundCloud for inquiries regarding commercial use rights.
+- No Additional Restrictions: You may not apply legal terms, technological measures, or other restrictions that limit usage of the Data beyond what is explicitly permitted by the CC BY-NC 4.0 license.
+- Ownership of Data: SoundCloud retains full ownership rights to the Data contained in this repository. This license grants you the rights to use the Data in compliance with the specified terms but does not transfer ownership of the Data to you or any other party.
+
+## Workshop Materials License
+The workshop materials (including, but not limited to, Jupyter Notebooks, scripts, documentation, and other educational resources) provided in this repository ("Workshop Materials") are owned jointly by Netlight and SoundCloud. The Workshop Materials are licensed under the same Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) license.
+
+### Key Terms:
+
+- Attribution: You must appropriately credit Netlight and SoundCloud for any use or redistribution of the Workshop Materials. Proper credit should include acknowledgment to both authors and a link to the license.
+- NonCommercial Use Only: Workshop Materials may only be used for non-commercial purposes, including educational activities or research. Commercial exploitation or derivative works intended for profit are strictly prohibited without express written permission from both Netlight and SoundCloud.
+Modification and Redistribution: You may modify, adapt, or share the Workshop Materials under the terms of the CC BY-NC license, provided proper credit is given and the resulting work is also non-commercial.
+- Ownership of Workshop Materials: Ownership of Workshop Materials remains with Netlight and SoundCloud; this license only covers non-commercial use under the terms of the CC BY-NC 4.0 license. Commercial rights or ownership cannot be transferred without approval from both parties.
+
+## General Notice
+By using, modifying, or redistributing the Data and/or Workshop Materials provided in this repository, you agree to adhere to the terms and conditions of this license. Non-compliance with these terms will result in termination of your rights under this license.
+
+For questions regarding commercial usage or inquiries about this license, please contact SoundCloud or Netlight.
+
+Note: This repository and its contents are publicly available for the purpose of non-commercial research, education, and learning. Unauthorized commercial use or reproduction of the contents is strictly forbidden.
+

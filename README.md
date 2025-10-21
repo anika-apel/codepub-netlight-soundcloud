@@ -126,10 +126,6 @@ This workshop aims to:
 - **Demonstrate responsible** use of demographic data
 - **Foster inclusive** practices in data science
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Acknowledgments
 
 - **SoundCloud** for collaboration and inspiration
