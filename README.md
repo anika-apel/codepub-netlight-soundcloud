@@ -35,7 +35,7 @@ This is a safer space, you can ask any questions. We and all other participants 
 - **Prerequisites**: Basic knowledge of Pandas, numpy and plotting libraries
 
 ### 🔴 **Advanced Level**
-**Focus**: Recommendations and Predictions for listeners and artists
+**Focus**: Data exploration of comment and listening behavior, Recommendations for listeners and artists
 - **File**: `notebooks/advanced/advanced_dei_analysis.ipynb`
 - **Duration**: 75 minutes
 
