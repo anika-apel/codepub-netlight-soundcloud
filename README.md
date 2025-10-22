@@ -23,6 +23,8 @@ At the end, we will collect key findings and results on this Miro board to share
 
 This is a safer space, you can ask any questions. We and all other participants are here to support each other ✨
 
+Share your favourite insights and visualizations on our [Miro board](https://miro.com/app/board/uXjVJ3fss2E=/?share_link_id=630777636207)
+
 ### 🟢 **Beginner Level** 
 **Focus**: Basic data exploration and visualization of listening behavior of artists
 - **File**: `notebooks/beginner/beginner_dei_analysis.ipynb`
